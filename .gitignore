@@ -1,1 +1,3 @@
+# package-lock.json must not be ignored (as soon as anybody clones the repository and runs "npm install", npm will install the modules as listed in package-lock.json)
+# node_modules have to be ignored, since its content are platform dependent (i.e. windows and linux might have different contents) and it is usually very large
 /node_modules/

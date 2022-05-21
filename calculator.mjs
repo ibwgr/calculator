@@ -1,4 +1,6 @@
+// readline is a builtin module, shipped with node
 import rl from 'readline'
+// chalk is the installed third party module
 import chalk from 'chalk'
 
 const reader = rl.createInterface({
@@ -12,6 +14,7 @@ let operator
 
 console.log(chalk.blue('Number 1: '))
 
+// the line event is triggered each time the user presses enter in the terminal
 reader.on('line', input => {
     step++
 
