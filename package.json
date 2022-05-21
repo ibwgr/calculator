@@ -1,0 +1,13 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "main": "calculator.mjs",
+  "dependencies": {
+    "chalk": "5.0.1"
+  },
+  "scripts": {
+    "start": "node calculator.mjs"
+  },
+  "devDependencies": {},
+  "license": "WTFPL"
+}
